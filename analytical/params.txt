@@ -1,0 +1,42 @@
+analytical reaction time: 1.0395593725045789 s
+
+# general info
+general_w = -20 * 0.2778  # m/s
+speed_limit = 7.82  # m/s
+# speed_limit = 24.5872  # m/s
+w_tolerance = 0.001
+small_value = 0.00001
+t_tolerance = 0.01
+read_point_num = 350
+scale = 0.3048  # ft to m
+step_size = 0.1
+vf = 72 / 3.6  # km/h to m/s
+
+# for optimization solver
+reaction_time_lb = 0.7
+reaction_time_ub = 2.0
+outflow_sample_size = 5
+vehicle_point_sample_interval = 10  # times 0.1 seconds
+shift_interval = 5  # 0.5 s
+obj_speed_diff_penalty = 1
+
+# for analytical method
+time_length = 200  # how many slots
+plantoon_size = 4
+# the oscillation part of the first vehicle
+# a = 15
+a = 20
+# omega = 0.1 * np.pi
+omega = 0.14 * np.pi
+phase_shift = 0 * np.pi
+phi = 0.1
+f = omega / (2 * np.pi)  # frequency (hz)
+# other parameters
+ks = 1  # feedback gain
+kv = 1  # feedback gain
+# tau = 0.8  # s minimal time gap
+tau = 1.2  # s minimal time gap
+ve = 10  # m/s equilibrium speed
+standstill_s = 5  # 5m standstill spacing
+xe = tau * ve + standstill_s  # equilibrium spacing
+theta = 0.5  # s total measurement and actuation delay
