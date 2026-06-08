@@ -215,7 +215,7 @@ New generated outputs should stay under `results/` or another explicit output fo
 
 ## Citation
 
-If you use this repository, please cite the paper. Replace the metadata below with the final publication details when available.
+If you use this repository, please cite the paper.
 
 ```bibtex
 @article{PU2026103521,
