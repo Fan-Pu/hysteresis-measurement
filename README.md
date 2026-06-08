@@ -218,10 +218,16 @@ New generated outputs should stay under `results/` or another explicit output fo
 If you use this repository, please cite the paper. Replace the metadata below with the final publication details when available.
 
 ```bibtex
-@article{pu2026optimal,
-  title = {Optimal Measurement of Traffic Hysteresis under Traffic Oscillations: A Binary Integer Programming Approach},
-  author = {Pu, Fan and Zhou, Yang and Ahn, Soyoung and Li, Sixu and Kontar, Wissam and Wang, Xiubin},
-  journal = {Transportation Research Part B: Methodological},
-  year = {2026}
+@article{PU2026103521,
+title = {Optimal measurement of traffic hysteresis under traffic oscillations: A binary integer programming approach},
+journal = {Transportation Research Part B: Methodological},
+volume = {211},
+pages = {103521},
+year = {2026},
+issn = {0191-2615},
+doi = {https://doi.org/10.1016/j.trb.2026.103521},
+url = {https://www.sciencedirect.com/science/article/pii/S0191261526001335},
+author = {Fan Pu and Yang Zhou and Soyoung Ahn and Sixu Li and Wissam Kontar and Xiubin Wang},
+keywords = {Traffic hysteresis, Intra/inter-driver heterogeneity, Minimum-cost network flow problem, Integer programming}
 }
 ```
